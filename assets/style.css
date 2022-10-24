@@ -1,0 +1,70 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+h4 {
+    position: relative;
+    left: 200px;
+    letter-spacing: 1.5px;
+    color: deepskyblue;
+}
+li {
+    padding: 0 20px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 1.8rem;
+    color: #103d62;
+}
+h2 {
+    position: relative;
+    top: 180px;
+    background-color: black;
+    color: white;
+    letter-spacing: 1.5px;
+    font-family: monospace;
+}
+
+ul.nav-links {
+    position: relative;
+    right: 200px;
+    display: flex;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button#btn {
+    position: relative;
+    top: 200px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.8rem;
+    background-color: transparent;
+    border: 1px solid black;
+}
+span.color {
+    color: aqua;
+}
